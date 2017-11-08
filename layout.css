@@ -1,0 +1,32 @@
+body {
+	width: 100vw;
+    height: 33vh;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+}
+.column-1{
+ width: 100vw;
+ height: calc(100vh / 3);
+}
+.column-2{
+ width: 100vw;
+ height: 33vh;
+display: flex;
+flex-wrap: wrap;
+}
+
+.box {
+ width: calc(100vw / 3);
+ height: calc(100vh / 3);
+ flex-wrap: wrap;
+ display: flex;
+}
+
+.gray {background-color: #696969;}
+.blue1 {background-color: #00008B;}
+.red1 {background-color: #8B0000;}
+.blue2 {background-color: #00008B;}
+.red2 {background-color: #8B0000;}
+.blue3 {background-color: #00008B;}
+.red3 {background-color: #8B0000;}
